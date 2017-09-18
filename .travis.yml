@@ -1,4 +1,4 @@
-language: php
+language: node.js
 deploy:
   provider: releases
   api_key: "cf08cab687674f1d41477de7262ab2eb593d9774"
