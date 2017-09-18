@@ -1,0 +1,4 @@
+Authtype Basic
+AuthName "stg-user"
+AuthUserFile /var/www/qa.jpstyle.us/private/.htpasswd
+Require valid-user
