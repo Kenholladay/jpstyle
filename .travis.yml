@@ -1,3 +1,7 @@
-language: node_js
-install: true
+deploy:
+  provider: releases
+  api_key: "cf08cab687674f1d41477de7262ab2eb593d9774"
+  file: "README.md"
+  skip_cleanup: true
+  on: tags: true
 after_success: "curl --request POST --url https://api.observepoint.com/v2/web-audits/31638/runs --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' --header 'content-type: application/json'"
