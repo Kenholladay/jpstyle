@@ -4,23 +4,7 @@ node_js:
   - "7"
 install: true
 after_success:
-
-curl --request POST \
-  --url https://api.observepoint.com/v2/web-audits/31638/runs \
-  --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' \
-  --header 'content-type: application/json' \
-
-curl --request POST \
-  --url https://api.observepoint.com/v2/web-journeys/11609/runs \
-  --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' \
-  --header 'content-type: application/json' \
-
-curl --request POST \
-  --url https://api.observepoint.com/v2/web-journeys/11610/runs \
-  --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' \
-  --header 'content-type: application/json' \
-
-curl --request POST \
-  --url https://api.observepoint.com/v2/web-journeys/11613/runs \
-  --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' \
-  --header 'content-type: application/json' \
+"curl --request POST --url https://api.observepoint.com/v2/web-audits/31638/runs --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' --header 'content-type: application/json'"
+"curl --request POST --url https://api.observepoint.com/v2/web-journeys/11609/runs --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' --header 'content-type: application/json'"
+"curl --request POST --url https://api.observepoint.com/v2/web-journeys/11610/runs --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' --header 'content-type: application/json'"
+"curl --request POST --url https://api.observepoint.com/v2/web-journeys/11613/runs --header 'authorization: api_key Z3A5ZmozZXRsYm51MHJsZXZlOXFiNXMxOG1rZnAzMmc4dWk0bjMwdWVpcmRoY2Jza3BmYnM4aTcwMCY1MDM3JjE1MDQ2MzcyOTA2NjI' --header 'content-type: application/json'"
